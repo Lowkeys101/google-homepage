@@ -8,6 +8,9 @@ html {
 body {
     margin: 0;
     padding: 0;
+    font-size: 12px;
+    font-family: arial,sans-serif;
+    color: #222;
 }
 .wrapper {
     height: 100vh;
@@ -26,44 +29,53 @@ body {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 10px;
     justify-content: flex-end;
-    margin: 0;
+    align-items: center;
+    margin: 5px 20px;
 
 }
 
-.header a, .footer a {
-    box-sizing: border-box;
+.header .material-icons {
+    color: #5f6368;
+
+}
+
+.header a {
+    display:block;
     text-decoration: none;
-    color: black;
-    padding: 20px 5upx;
-
-
+    color: rgba(0,0,0,0.87);
+    padding: 5px 5px;
 }
 
+.footer a {
+    color: #70757a;
+    display:block;
+    text-decoration: none;
+    padding: 10px 5px;
+}
 .footer {
     background-color: #f2f2f2;
     align-self: end;
-    display: flex;    
+    display: flex; 
 }
 
 .footer-links1 {
     width: 60%;
     display: flex;
+    padding-left: 60px;
     justify-content: space-around;
-    padding: 0 20px;
 }
 
 
 .footer-links2 {
     width: 40%;
     display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
     justify-content: space-around;
-    padding: 0 20px;
 }
 
 .content form {
-    /* border: 1px solid red; */
     width: 60%;
 
 }
@@ -73,6 +85,8 @@ body {
     padding: 10px;
     border-radius: 30px;
     margin-bottom: 10px;
+    text-indent: 20px;
+
 }
 
 .button-container {
@@ -83,6 +97,25 @@ body {
 .content button {
     border: none;
     background: #f8f9fa;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #3c4043;
 }
 
+.searchbar {
+    position: relative;
+}
 
+.searchbar span {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    color: #70757a;;
+}
+
+.header .sign-in {
+    background: rgb(43, 125, 233);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
