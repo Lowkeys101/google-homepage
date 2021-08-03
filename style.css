@@ -8,7 +8,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-size: 12px;
+    font-size: 14px;
     font-family: arial,sans-serif;
     color: #222;
 }
@@ -51,16 +51,18 @@ body {
     color: #70757a;
     display:block;
     text-decoration: none;
-    padding: 10px 5px;
+    padding: 10px 10px;
 }
 .footer {
     background-color: #f2f2f2;
     align-self: end;
-    display: flex; 
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .footer-links1 {
-    width: 60%;
+
     display: flex;
     padding-left: 60px;
     justify-content: space-around;
@@ -68,7 +70,7 @@ body {
 
 
 .footer-links2 {
-    width: 40%;
+
     display: flex;
     padding-left: 60px;
     padding-right: 60px;
@@ -76,7 +78,7 @@ body {
 }
 
 .content form {
-    width: 60%;
+    width: 30%;
 
 }
 
@@ -86,6 +88,8 @@ body {
     border-radius: 30px;
     margin-bottom: 10px;
     text-indent: 20px;
+    border-width: 1px;
+    border: 1px solid #c6c3c3;
 
 }
 
